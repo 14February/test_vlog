@@ -1,0 +1,214 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/actionCenter/index",
+			"style": {
+				"navigationBarTitleText": "活动中心",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/agreement/index",
+			"style": {
+				"navigationBarTitleText": "《用户协议》",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/actionCenterDetail/index",
+			"style": {
+				"navigationBarTitleText": "活动中心详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/website/index"
+		},
+		{
+			"path": "pages/upGrade/index",
+			"style": {
+				"navigationBarTitleText": "卡片升级",
+				"navigationBarBackgroundColor": "#52C234",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/menber/index",
+			"style": {
+				"navigationBarTitleText": "购买会员",
+				"navigationBarBackgroundColor": "#52C234",
+				"navigationBarTextStyle": "#FFFFFF"
+			}
+		},
+		
+		{
+			"path": "pages/previewingVideo/index",
+			"style": {
+				"navigationBarTitleText": "景点视频",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/coupon/index",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/scenic/index",
+			"style": {
+				"navigationBarTitleText": "景区",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/orderDetail/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/newsDetail/index",
+			"style": {
+				"navigationBarTitleText": "要闻详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/citySelect/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/scenicVideo/index",
+			"style": {
+				"navigationBarTitleText": "景点视频"
+			}
+		},
+		
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		
+		
+		{
+			"path": "pages/quickLogin/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		
+		
+		{
+			"path": "pages/personInfo/index",
+			"style": {
+				"navigationBarTitleText": "会员卡认证"
+			}
+		},
+		{
+			"path": "pages/personalCard/index",
+			"style": {
+				"navigationBarTitleText": "会员卡认证"
+			}
+		},
+		
+		{
+			"path": "pages/signIn/index"
+		},
+		{
+			"path": "pages/scenicPunch/index"
+		},
+		{
+			"path": "pages/scenicDetail/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/face/index",
+			"style": {
+				"navigationBarTitleText": "获取视频",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "云谷智游Vlog",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#52C234",
+		"borderStyle": "white",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tabbar/tool00.png",
+			"selectedIconPath": "static/images/tabbar/tool00_.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/user/index",
+			"iconPath": "static/images/tabbar/tool01.png",
+			"selectedIconPath": "static/images/tabbar/tool01_.png",
+			"text": "我的"
+		}]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

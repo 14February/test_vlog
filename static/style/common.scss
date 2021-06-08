@@ -1,0 +1,57 @@
+.nowrap {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.nowrap-double {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow: hidden;}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.h10 {height: 10upx;}
+.h15 {height: 15upx;}
+.h20 {height: 20upx;}
+.h30 {height: 30upx;}
+.h35 {height: 35upx;}
+.h40 {height: 40upx;}
+.h50 {height: 50upx;}
+.h60 {height: 60upx;}
+.h70 {height: 90upx;}
+.h80 {height: 80upx;}
+.h90 {height: 90upx;}
+.h95 {height: 95upx;}
+.h100 {height: 100upx;}
+.h120 {height: 120upx;}
+.h150 {height: 150upx;}
+.h200 {height: 200upx;}
+.h250 {height: 250upx;}
+
+
+.no-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50upx;
+	
+	.pic {
+		margin-bottom: 20upx;
+		width: 288upx;
+	}
+
+	.text {
+		margin-bottom: 60upx;
+		font-size: 28upx;
+		line-height: 48upx;
+		color: #999;
+	}
+
+	.button {
+    border-radius: 8upx;
+    width: calc(100% - 180upx);
+    font-size: 34upx;
+    font-weight: bold;
+    line-height: 88upx;
+    text-align: center;
+    color: #FFF;
+    background: #FF802B;
+  }
+}
